@@ -1,5 +1,5 @@
 # MCBENoNVIDIARTX
-Disables DXR Raytracing (DirectX Raytracing) within Minecraft's NVIDIA Driver Profile.
+Disables Raytracing (DirectX Raytracing) within Minecraft's NVIDIA Driver Profile.
 
 ## What does the project exactly do?
 This project disables the following setting `Raytracing - (DXR)` within Minecraft Bedrock Edition's NVIDIA Driver Profile.  
