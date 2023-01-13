@@ -1,6 +1,13 @@
 # MCBENoNVIDIARTX
 Disables Raytracing (DirectX Raytracing) within Minecraft's NVIDIA Driver Profile.
 
+## Intentions of rewriting the original project.
+1. Removal of checking for an RTX card since altering the value for a non-RTX graphics card doesn't do anything.
+2. Cleaner error handling by clubing similar functions under a single `if` statement.
+3. Using C instead of C++, makes things cleaner and simpler.
+4. Giving a clear description of the project exactly does.
+5. Allowing the user to toggle on or off `Raytracing - (DXR)` via a `MessageBox`.
+
 ## What does the project exactly do?
 This project disables the following setting `Raytracing - (DXR)` within Minecraft Bedrock Edition's NVIDIA Driver Profile.  
 Disabling this option makes Minecraft detects the system to have a Non-RTX capable NVIDIA GPU.       
